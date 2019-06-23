@@ -50,7 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataBase.cs" />
+    <Compile Include="DataBase\Teams.cs" />
+    <Compile Include="DataBase\Projects.cs" />
+    <Compile Include="DataBase\Globals.cs" />
+    <Compile Include="DataBase\UserIndentification.cs" />
+    <Compile Include="DataBase\UserContact.cs" />
+    <Compile Include="DataBase\User.cs" />
+    <Compile Include="DataBase\Adress.cs" />
+    <Compile Include="DataBase\DataBaseConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
