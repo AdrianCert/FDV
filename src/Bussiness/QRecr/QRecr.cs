@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 using QRCoder;
@@ -9,7 +9,7 @@ namespace Bussiness.QRecr
 {
     public class QRecr : IQRecr
     {
-        private byte[] QRimage;
+        private Bitmap QRimage;
         private string QRdata;
         private readonly Type ContextType;
         public QRecr(Type type)
@@ -43,7 +43,7 @@ namespace Bussiness.QRecr
             QRdata = txt;
             return this;
         }
-        public virtual QRecr Data(byte[] src)
+        public virtual QRecr Data(Bitmap src)
         {
             QRimage = src;
             return this;
@@ -54,10 +54,16 @@ namespace Bussiness.QRecr
             //code here
             return QRdata;
         }
-        public byte[] Encode()
+        public Bitmap Encode()
         {
             Validation();
-            //code here
+            QRCodeGenerator generator;
+            QRCodeData data;
+            QRCode code;
+            generator = new QRCodeGenerator();
+            data = generator.CreateQrCode(QRdata,QRCodeGenerator.ECCLevel.M);
+            code = new QRCode(data);
+            QRimage = code.GetGraphic(20);
             return QRimage;
         }
     }
