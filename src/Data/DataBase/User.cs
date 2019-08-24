@@ -4,21 +4,15 @@
     using System.Data.Entity;
     using System.Collections.Generic;
     using System.Linq;
+    using System.ComponentModel.DataAnnotations.Schema;
 
+    [Table("User", Schema = "User")]
     public class User
     {
         public Guid Id { get; set; }
         public string Nume { get; set; }
         public string Prenume { get; set; }
-        // Indentification User
-        public Guid UserIndentificationId { get; set; }
-        public virtual UserIndentification UserIndentification { get; set; }
-        // Contact User
-        public Guid ContactId { get; set; }
-        public virtual UserContact Contact { get; set; }
-
-        // Adresses & MainAdress
-        public Guid MainAdressId { get; set; }
+        public UserContact Contact { get; set; }
         public Adress MainAdress { get; set; }
         public virtual ICollection<Adress> Adresses { get; set; }
 

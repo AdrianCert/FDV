@@ -4,7 +4,9 @@
     using System.Data.Entity;
     using System.Collections.Generic;
     using System.Linq;
+    using System.ComponentModel.DataAnnotations.Schema;
 
+    [Table("Adres", Schema = "User")]
     public class Adress
     {
         public Guid Id { get; set; }

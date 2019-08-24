@@ -15,7 +15,6 @@ namespace Data
         {
         }
         public DbSet<User> Users { get; set; }
-        public DbSet<UserIndentification> UserIndentifications { get; set; }
         public DbSet<UserContact> UserContacts { get; set; }
         public DbSet<UserMail> UserMails { get; set; }
         public DbSet<UserNumber> UserNumbers { get; set; }
