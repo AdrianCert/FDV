@@ -2,30 +2,71 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<ul class='slideshow'>
+    <li>
+        <span>Summer</span>
+    </li>
+    <li>
+        <span>Fall</span>
+    </li>
+    <li>
+        <span>Winter</span>
+    </li>
+    <li>
+        <span>Spring</span>
+    </li>
+</ul>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+<div class="parallax first-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow slideInLeft hidden-xs hidden-sm">
+                <div class="contact_form">
+                    <h3><i class="fa fa-envelope-o grd1 global-radius"></i> Înscriere rapidă</h3>
+                    <form id="contactform1" class="row" name="contactform" method="post">
+                        <fieldset class="row-fluid">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="first_name1" id="first_name1" class="form-control" placeholder="Nume">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="last_name1" id="last_name1" class="form-control" placeholder="Prenume">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <input type="email" name="email1" id="email1" class="form-control" placeholder="Mail-ul tău">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="phone1" id="phone1" class="form-control" placeholder="Telefonul tău">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <label class="sr-only">Select Time</label>
+                                <select name="select_service1" id="select_service1" class="selectpicker form-control" data-style="btn-white">
+                                    <option value="selectgen">Sexul</option>
+                                    <option value="man">Masculin</option>
+                                    <option value="women">Feminim</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <label class="sr-only">What is max price?</label>
+                                <select name="select_age" id="select_age" class="selectpicker form-control" data-style="btn-white">
+                                    <option value="15 - 18">15 - 18 ani</option>
+                                    <option value="18 - 24">18 - 24 ani</option>
+                                    <option value="24 +">24+ ani</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                <button type="submit" value="SEND" id="submit1" class="btn btn-light btn-radius btn-brd grd1 btn-block">Aplică</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="big-tagline clearfix">
+                    <h2>Implica-te! Vino în echipa noastră! </h2>
+                    <p class="lead">Dacă Vrei - Poți, dacă Poți - Știi, dacă Știi, nu se poate să nu Vrei! Totul ține de Voință! </p>
+                    <a data-scroll href="/" class="btn btn-light btn-radius grd1 btn-brd">Vezi Proiecte</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
