@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fabrica-de-voluntari", "fabrica-de-voluntari\fabrica-de-voluntari.csproj", "{448DC852-5C0F-47E2-B891-100F7C8918D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{9333F348-D576-429A-9A39-D43916A91879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness", "Bussiness\Bussiness.csproj", "{16230453-03D7-46B4-9915-2E59BD9DA866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{448DC852-5C0F-47E2-B891-100F7C8918D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448DC852-5C0F-47E2-B891-100F7C8918D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448DC852-5C0F-47E2-B891-100F7C8918D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9333F348-D576-429A-9A39-D43916A91879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9333F348-D576-429A-9A39-D43916A91879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9333F348-D576-429A-9A39-D43916A91879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9333F348-D576-429A-9A39-D43916A91879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16230453-03D7-46B4-9915-2E59BD9DA866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16230453-03D7-46B4-9915-2E59BD9DA866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16230453-03D7-46B4-9915-2E59BD9DA866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16230453-03D7-46B4-9915-2E59BD9DA866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
