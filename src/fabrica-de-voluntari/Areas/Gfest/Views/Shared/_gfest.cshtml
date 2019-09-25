@@ -5,18 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>@ViewBag.Title - Gfest</title>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=9a991d5fc4e6873e9c2953d2677240a3">
-    <link rel="manifest" href="/manifest.json?h=864eef657fadfaa8b7a99edca149f246">
-    <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css?h=03ab36d1dde930b7d44a712f19075641">
+    <link rel="stylesheet" href="~/Content/bootstrap.4.1.1.min.css">
+    <link rel="manifest" href="~/wwwroot/manifest.json">
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,700,900">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.min.css?h=b7d5b5f15d4b4fab7a36cfb32c6c9f86">
+    <link rel="stylesheet" href="~/Content/gfest/styles_gfest.min.css">
 </head>
 
 <body style="width: 300px;">
-                @RenderBody()
     <div id="wrapper">
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
@@ -30,14 +29,16 @@
             <div class="container-fluid">
             </div>
         </div>
-        <a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a><img class="img-fluid mx-auto d-block;" style="align-items: inherit;width: 50px;" src="/assets/img/icon.png?h=24948883c5e74cd4774a28dc92aae6d0">
+        <a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a><img class="img-fluid mx-auto d-block;" style="align-items: inherit;width: 50px;" src="~/wwwroot/images/gfest/icon.png">
     </div>
-    <script src="/assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
-    <script src="/assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+    @RenderBody()
+    <script src="~/Scripts/bootstrap.4.3.1 .min.js"></script>
+    <script src="~/Scripts/jquery-2.0.0.min.js"></script>
+    <script src="~/Scripts/gfest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="/assets/js/script.min.js?h=56ded1ab5becce08fa95f819ee57ee4a"></script>
+    <script src="~/Scripts/gfest.min.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 

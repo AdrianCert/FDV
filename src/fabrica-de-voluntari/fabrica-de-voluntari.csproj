@@ -199,6 +199,7 @@
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\gfest.min.js" />
     <Content Include="Scripts\hoverdir.js" />
+    <Content Include="Scripts\jquery-2.0.0.min.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery.prettyPhoto.js" />
     <Content Include="Scripts\jquery.vide.js" />
@@ -213,6 +214,7 @@
     <Content Include="wwwroot\images\favicon.ico" />
     <Content Include="wwwroot\images\gfest\arrowwhite.gif" />
     <Content Include="wwwroot\images\gfest\i2.jpg" />
+    <Content Include="wwwroot\images\gfest\icon.png" />
     <Content Include="wwwroot\images\gfest\Tricou_front.png" />
     <Content Include="wwwroot\images\gps.png" />
     <Content Include="wwwroot\images\logo_2x2.png" />
