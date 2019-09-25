@@ -14,5 +14,11 @@ namespace Data
             : base("name=Gfest2019")
         {
         }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Participant> Participanti { get; set; }
+        public DbSet<Premiu> Premii { get; set; }
+        public DbSet<Activitate> Activitati { get; set; }
+        public DbSet<Exam> Exams { get; set; }
+        public DbSet<Quiz> Quizs { get; set; }
+        public DbSet<Intrebare> Intrebari { get; set; }
+    }
 }

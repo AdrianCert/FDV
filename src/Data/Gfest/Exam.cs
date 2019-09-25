@@ -12,6 +12,7 @@
         public int Id { get; set; }
         public bool Verdict { get; set; }
         public int RaspunsuriCorecte { get; set; }
+        public string ColectData { get; set; }
         public virtual Quiz Chestionar { get; set; }
     }
 }
