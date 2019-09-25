@@ -142,6 +142,7 @@
     <Compile Include="Areas\Gfest\Controllers\AdminsController.cs" />
     <Compile Include="Areas\Gfest\Controllers\HomeController.cs" />
     <Compile Include="Areas\Gfest\Controllers\IntrebariController.cs" />
+    <Compile Include="Areas\Gfest\Controllers\QuizsController.cs" />
     <Compile Include="Areas\Gfest\GfestAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -288,6 +289,11 @@
     <Content Include="Areas\Gfest\Views\Admins\Details.cshtml" />
     <Content Include="Areas\Gfest\Views\Admins\Edit.cshtml" />
     <Content Include="Areas\Gfest\Views\Admins\Index.cshtml" />
+    <Content Include="Areas\Gfest\Views\Quizs\Create.cshtml" />
+    <Content Include="Areas\Gfest\Views\Quizs\Delete.cshtml" />
+    <Content Include="Areas\Gfest\Views\Quizs\Details.cshtml" />
+    <Content Include="Areas\Gfest\Views\Quizs\Edit.cshtml" />
+    <Content Include="Areas\Gfest\Views\Quizs\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
