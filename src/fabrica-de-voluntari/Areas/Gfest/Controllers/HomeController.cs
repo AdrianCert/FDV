@@ -13,5 +13,8 @@ namespace fabrica_de_voluntari.Areas.Gfest.Controllers
         {
             return View();
         }
+        public ActionResult Info() {
+            return View();
+        }
     }
 }

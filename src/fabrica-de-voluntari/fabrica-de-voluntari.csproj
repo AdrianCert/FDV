@@ -312,6 +312,7 @@
     <Content Include="Areas\Gfest\Views\User\Details.cshtml" />
     <Content Include="Areas\Gfest\Views\User\Edit.cshtml" />
     <Content Include="Areas\Gfest\Views\User\Index.cshtml" />
+    <Content Include="Areas\Gfest\Views\Home\Info.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
