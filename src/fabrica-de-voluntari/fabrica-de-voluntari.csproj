@@ -145,6 +145,7 @@
     <Compile Include="Areas\Gfest\Controllers\HomeController.cs" />
     <Compile Include="Areas\Gfest\Controllers\IntrebariController.cs" />
     <Compile Include="Areas\Gfest\Controllers\QuizsController.cs" />
+    <Compile Include="Areas\Gfest\Controllers\UserController.cs" />
     <Compile Include="Areas\Gfest\GfestAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -306,6 +307,11 @@
     <Content Include="Areas\Gfest\Views\Activitates\Details.cshtml" />
     <Content Include="Areas\Gfest\Views\Activitates\Edit.cshtml" />
     <Content Include="Areas\Gfest\Views\Activitates\Index.cshtml" />
+    <Content Include="Areas\Gfest\Views\User\Create.cshtml" />
+    <Content Include="Areas\Gfest\Views\User\Delete.cshtml" />
+    <Content Include="Areas\Gfest\Views\User\Details.cshtml" />
+    <Content Include="Areas\Gfest\Views\User\Edit.cshtml" />
+    <Content Include="Areas\Gfest\Views\User\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -336,7 +342,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Gfest\Models\" />
-    <Folder Include="Areas\Gfest\Views\User\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
