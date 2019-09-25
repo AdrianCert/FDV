@@ -10,11 +10,21 @@ namespace fabrica_de_voluntari.Controllers
     {
         public ActionResult Index()
         {
+            bool IsGfest = true;
+            if (IsGfest)
+            {
+                return RedirectToAction("Index","Home", new { area = "Gfest" });
+            }
             return View();
         }
 
         public ActionResult About()
         {
+            bool IsGfest = true;
+            if (IsGfest)
+            {
+                return RedirectToAction("Index", "Home", new { area = "Gfest" });
+            }
             ViewBag.Message = "Your application description page.";
 
             return View();
@@ -22,6 +32,11 @@ namespace fabrica_de_voluntari.Controllers
 
         public ActionResult Contact()
         {
+            bool IsGfest = true;
+            if (IsGfest)
+            {
+                return RedirectToAction("Index", "Home", new { area = "Gfest" });
+            }
             ViewBag.Message = "Your contact page.";
 
             return View();
