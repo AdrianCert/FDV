@@ -6,7 +6,7 @@
     using System.Linq;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Standuri", Schema = "Pub")]
+    [Table("Activitati", Schema = "Pub")]
     public class Activitate
     {
         public int Id { get; set; }

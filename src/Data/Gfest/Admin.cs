@@ -6,15 +6,12 @@
     using System.Linq;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Quizs", Schema = "Quiz")]
-    public class Quiz
+    [Table("Admins", Schema = "Adm")]
+    public class Admin
     {
         public int Id { get; set; }
         public string Nume { get; set; }
-        public string Descriere { get; set; }
+        public string Data { get; set; }
 
-        public string Path_Icon { get; set; }
-
-        public virtual ICollection<Intrebare> Intrebari { get; set; }
-    }
+        public string Password { get; set; }
 }

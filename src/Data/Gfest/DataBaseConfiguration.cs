@@ -16,6 +16,7 @@ namespace Data
         }
         public DbSet<Participant> Participanti { get; set; }
         public DbSet<Premiu> Premii { get; set; }
+        public DbSet<Admin> Admins { get; set; }
         public DbSet<Activitate> Activitati { get; set; }
         public DbSet<Exam> Exams { get; set; }
         public DbSet<Quiz> Quizs { get; set; }

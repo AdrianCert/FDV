@@ -56,6 +56,7 @@
     <Compile Include="Gfest\Globals.cs" />
     <Compile Include="Gfest\Premii.cs" />
     <Compile Include="Gfest\Chestionare.cs" />
+    <Compile Include="Gfest\Admin.cs" />
     <Compile Include="Gfest\Standuri.cs" />
     <Compile Include="Gfest\Participant.cs" />
     <Compile Include="DataBase\Teams.cs" />

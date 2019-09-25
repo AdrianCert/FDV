@@ -1,0 +1,107 @@
+﻿@model Data.Intrebare
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Gfest/Views/Shared/_gfest.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Intrebare</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Enunt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Enunt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Path_Icon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Path_Icon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Var1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Var1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Var2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Var2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Var3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Var3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Var4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Var4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IstrueVar1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IstrueVar1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IstrueVar2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IstrueVar2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IstrueVar3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IstrueVar3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IstrueVar4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IstrueVar4)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
