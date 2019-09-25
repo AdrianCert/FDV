@@ -1,0 +1,43 @@
+﻿@model Data.Activitate
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Gfest/Views/Shared/_gfest.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Activitate</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descriere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descriere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Path_Icon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Path_Icon)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
