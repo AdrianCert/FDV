@@ -50,6 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gfest\Exam.cs" />
+    <Compile Include="Gfest\Intrebari.cs" />
+    <Compile Include="Gfest\DataBaseConfiguration.cs" />
+    <Compile Include="Gfest\Globals.cs" />
+    <Compile Include="Gfest\Premii.cs" />
+    <Compile Include="Gfest\Chestionare.cs" />
+    <Compile Include="Gfest\Standuri.cs" />
+    <Compile Include="Gfest\Participant.cs" />
     <Compile Include="DataBase\Teams.cs" />
     <Compile Include="DataBase\Projects.cs" />
     <Compile Include="DataBase\Globals.cs" />

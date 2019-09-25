@@ -133,6 +133,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Gfest\Controllers\HomeController.cs" />
     <Compile Include="Areas\Gfest\GfestAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -144,6 +145,7 @@
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.4.1.1.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\colors.css" />
@@ -154,6 +156,7 @@
     <Content Include="Content\fonts\Flaticon.svg" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\gfest\styles_gfest.min.css" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\prettyPhoto.css" />
     <Content Include="Content\responsive.css" />
@@ -163,6 +166,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\all.js" />
+    <Content Include="Scripts\animate.js" />
+    <Content Include="Scripts\bootstrap.4.3.1 .min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Gfest\Views\web.config" />
@@ -178,10 +184,24 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\gfest.min.js" />
+    <Content Include="Scripts\hoverdir.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\jquery.vide.js" />
+    <Content Include="Scripts\modernizer.js" />
+    <Content Include="Scripts\owl.carousel.js" />
+    <Content Include="Scripts\portfolio.js" />
+    <Content Include="Scripts\retina.js" />
+    <Content Include="Scripts\scroll.js" />
     <Content Include="wwwroot\images\ajax-loader.gif" />
     <Content Include="wwwroot\images\apple-touch-icon.png" />
     <Content Include="wwwroot\images\bg.png" />
     <Content Include="wwwroot\images\favicon.ico" />
+    <Content Include="wwwroot\images\gfest\arrowwhite.gif" />
+    <Content Include="wwwroot\images\gfest\i2.jpg" />
+    <Content Include="wwwroot\images\gfest\Tricou_front.png" />
     <Content Include="wwwroot\images\gps.png" />
     <Content Include="wwwroot\images\logo_2x2.png" />
     <Content Include="wwwroot\images\logo_4x4.png" />
@@ -246,6 +266,10 @@
     <Content Include="wwwroot\uploads\testi_01.png" />
     <Content Include="wwwroot\uploads\testi_02.png" />
     <Content Include="wwwroot\uploads\testi_03.png" />
+    <Content Include="Areas\Gfest\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Gfest\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Gfest\Views\Shared\_gfest.cshtml" />
+    <Content Include="Areas\Gfest\Views\Home\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -271,12 +295,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="wwwroot\manifest.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Gfest\Controllers\" />
     <Folder Include="Areas\Gfest\Models\" />
-    <Folder Include="Areas\Gfest\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

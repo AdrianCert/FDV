@@ -17,7 +17,9 @@ namespace fabrica_de_voluntari.Areas.Gfest
             context.MapRoute(
                 "Gfest_default",
                 "Gfest/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new {controller="Home", action = "Index", id = UrlParameter.Optional },
+                namespaces: new[] { "fabrica_de_voluntari.Areas.Gfest.Controllers" }
+
             );
         }
     }
