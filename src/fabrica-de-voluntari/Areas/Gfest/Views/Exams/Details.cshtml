@@ -1,0 +1,43 @@
+﻿@model Data.Exam
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Gfest/Views/Shared/_gfest.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Exam</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Verdict)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Verdict)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RaspunsuriCorecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RaspunsuriCorecte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ColectData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ColectData)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
