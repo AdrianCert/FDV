@@ -14,4 +14,5 @@
         public string Data { get; set; }
 
         public string Password { get; set; }
+    }
 }

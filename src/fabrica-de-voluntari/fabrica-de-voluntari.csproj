@@ -139,6 +139,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Gfest\Controllers\AdminsController.cs" />
     <Compile Include="Areas\Gfest\Controllers\HomeController.cs" />
     <Compile Include="Areas\Gfest\Controllers\IntrebariController.cs" />
     <Compile Include="Areas\Gfest\GfestAreaRegistration.cs" />
@@ -282,6 +283,11 @@
     <Content Include="Areas\Gfest\Views\Intrebari\Details.cshtml" />
     <Content Include="Areas\Gfest\Views\Intrebari\Edit.cshtml" />
     <Content Include="Areas\Gfest\Views\Intrebari\Index.cshtml" />
+    <Content Include="Areas\Gfest\Views\Admins\Create.cshtml" />
+    <Content Include="Areas\Gfest\Views\Admins\Delete.cshtml" />
+    <Content Include="Areas\Gfest\Views\Admins\Details.cshtml" />
+    <Content Include="Areas\Gfest\Views\Admins\Edit.cshtml" />
+    <Content Include="Areas\Gfest\Views\Admins\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
