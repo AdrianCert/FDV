@@ -5,13 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>@ViewBag.Title - Gfest</title>
-    <link rel="stylesheet" href="~/Content/bootstrap.4.1.1.min.css">
+    <link rel="stylesheet" href="~/Content/gfest/bootstrap-4.3.1.min.css">
     <link rel="manifest" href="~/wwwroot/manifest.json">
     <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bevan">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="~/Content/gfest/styles_gfest.min.css">
 </head>
 
@@ -27,19 +32,81 @@
         </div>
         <div class="page-content-wrapper">
             <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a><img class="img-fluid mx-auto d-block;" style="align-items: inherit;width: 50px;" src="~/wwwroot/images/gfest/icon.png">
-    </div>
-    @RenderBody()
-    <script src="~/Scripts/bootstrap.4.3.1 .min.js"></script>
-    <script src="~/Scripts/jquery-2.0.0.min.js"></script>
-    <script src="~/Scripts/gfest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="~/Scripts/gfest.min.js"></script>
-    @RenderSection("scripts", required: false)
+        <a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars"></i></a>
+        <div class="container">
+            <div class="inner-header mb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-2">
+                        <img class="img-fluid mx-auto text-center" style="align-items: inherit;width: 100px;" src="/assets/img/icon.png?h=24948883c5e74cd4774a28dc92aae6d0"><br>
+                        <a href="#" class="text-center">Change photo</a>
+                    </div>
+                    <!-- /.inner-header -->
+                    <div class="content mt-5">
+                        <div class="rewards">
+                            <h3>Abtibilduri</h3>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-2 col-lg-4 mt-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                </div>
+                                <div class="col-sm-12 col-md-2 col-lg-4 mt-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                </div>
+                                <div class="col-sm-12 col-md-2 col-lg-4 mt-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                </div>
+                                <div class="col-sm-12 col-md-2 col-lg-4 mt-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                </div>
+                                <div class="col-sm-12 col-md-2 col-lg-4 mt-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                </div>
+                                <div class="col-sm-12 col-md-2 col-lg-4 mt-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                    <img src="https://via.placeholder.com/75" alt="..." class="rounded-circle mb-2">
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- /.rewards -->
+                    </div>
+                    <!-- /.content -->
+                </div>
+                <!-- /.container for content -->
+            </div>
+            @RenderBody()
+            <script src="~/wwwroot/assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+            <script src="~/wwwroot/assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+            <script src="~/wwwroot/assets/js/script.min.js?h=56ded1ab5becce08fa95f819ee57ee4a"></script>
+            <script src="~/wwwroot/assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+            <script src="~/wwwroot/assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+            <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+            <script src="~/wwwroot/assets/js/script.min.js?h=8f4b916ff9604f140a4997c1f1ce0b2d"></script>
+            @RenderSection("scripts", required: false)
 </body>
 
 </html>
